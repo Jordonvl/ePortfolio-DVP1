@@ -32,5 +32,18 @@ namespace DVP1.CE1
             Console.WriteLine("");
             Console.WriteLine("Enter your slection");
         }
+
+        
+    }
+
+    public static int GetValidation(int menuChoiceInt)
+    {
+        string menuInput = Console.ReadLine();
+
+        while (!int.TryParse(menuInput, out menuChoiceInt) && menuChoiceInt < 0 && menuChoiceInt > 5)
+        {
+            Console.WriteLine("Please enter one of the choice in the menu");
+        }
+        return menuChoiceInt;
     }
 }
