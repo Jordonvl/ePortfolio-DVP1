@@ -11,5 +11,26 @@ namespace DVP1.CE1
 {
     class Menu
     {
+        static int menuChoice = 0;
+    }
+
+    public static void GetMenu()
+    {
+        while (true)
+        {
+            Console.Clear();
+            Console.WriteLine("Menu");
+            Console.WriteLine("Enter valid number choice for challenge you want to run");
+            Console.WriteLine("");
+            Console.WriteLine("[1] Swap Name");
+            Console.WriteLine("[2] Backwards");
+            Console.WriteLine("[3] Age Convert");
+            Console.WriteLine("[4] Temp Convert");
+            Console.WriteLine("[5] Big Blue Fish");
+            Console.WriteLine("");
+            Console.WriteLine("[0] Exit");
+            Console.WriteLine("");
+            Console.WriteLine("Enter your slection");
+        }
     }
 }
