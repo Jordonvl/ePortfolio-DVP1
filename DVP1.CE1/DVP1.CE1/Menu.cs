@@ -31,7 +31,6 @@ namespace DVP1.CE1
                 Console.WriteLine("[0] Exit");
                 Console.WriteLine("");
                 Console.WriteLine("Enter your slection");
-                
 
                 switch (GetValidation(menuChoice))
                 {
