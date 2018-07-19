@@ -20,7 +20,7 @@ namespace DVP1.CE1
             {
                 Console.Clear();
                 Console.WriteLine("Menu");
-                Console.WriteLine("Enter valid number choice for challenge you want to run");
+                Console.WriteLine("Enter valid number choice");
                 Console.WriteLine("");
                 Console.WriteLine("[1] Swap Name");
                 Console.WriteLine("[2] Backwards");
@@ -31,12 +31,13 @@ namespace DVP1.CE1
                 Console.WriteLine("[0] Exit");
                 Console.WriteLine("");
                 Console.WriteLine("Enter your slection");
+                
 
                 switch (GetValidation(menuChoice))
                 {
                     case 1:
                         {
-
+                            Console.WriteLine("Not ready yet");
 
                         }
                         break;
