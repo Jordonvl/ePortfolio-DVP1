@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Jordon van Leenen
+//1807
+//Project & Portfolio
+//In this coding challenge I am creating a class where the names the user inputs will be reversed.
 namespace DVP1.CE1
 {
     class SwapName
@@ -24,7 +27,11 @@ namespace DVP1.CE1
                 Console.WriteLine("You did not enter anything.");
                 Console.ReadLine();
             }
+        }
 
+        public static void NameSwap(string firstNameString, string lastNameString)
+        {
+            Console.WriteLine($"Excellent your name {firstNameString} {lastNameString} reversed would be {lastNameString}, {firstNameString}");
         }
     }
 }
