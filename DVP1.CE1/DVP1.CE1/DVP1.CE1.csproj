@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backwards.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="SwapName.cs" />
     <Compile Include="Z:\jordo On My Mac\Public\ePortfolio-DVP1\Program.cs">
