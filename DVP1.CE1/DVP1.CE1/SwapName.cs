@@ -27,11 +27,15 @@ namespace DVP1.CE1
                 Console.WriteLine("You did not enter anything.");
                 Console.ReadLine();
             }
+
+            NameSwap(firstNameString, lastNameString);
+            Console.WriteLine("Press return to go back to menu");
+            Console.ReadLine();
         }
 
-        public static void NameSwap(string firstNameString, string lastNameString)
+        public static void NameSwap(string firstname, string lastname)
         {
-            Console.WriteLine($"Excellent your name {firstNameString} {lastNameString} reversed would be {lastNameString}, {firstNameString}");
+            Console.WriteLine($"Excellent your name {firstname} {lastname} reversed would be {lastname}, {firstname}");
         }
     }
 }

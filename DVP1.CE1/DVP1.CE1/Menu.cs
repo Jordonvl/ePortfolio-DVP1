@@ -30,14 +30,14 @@ namespace DVP1.CE1
                 Console.WriteLine("");
                 Console.WriteLine("[0] Exit");
                 Console.WriteLine("");
-                Console.WriteLine("Enter your slection");
+                Console.WriteLine("Enter your selection");
 
                 switch (GetValidation(menuChoice))
                 {
                     case 1:
                         {
-                            Console.WriteLine("Not ready yet");
-
+                            Console.Clear();
+                            SwapName.GetSwapName();
                         }
                         break;
                     case 2:
