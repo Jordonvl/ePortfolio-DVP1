@@ -42,7 +42,8 @@ namespace DVP1.CE1
                         break;
                     case 2:
                         {
-                            Console.WriteLine("Not ready yet");
+                            Console.Clear();
+                            Backwards.GetBackWards();
                         }
                         break;
                     case 3:

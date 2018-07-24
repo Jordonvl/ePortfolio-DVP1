@@ -15,8 +15,23 @@ namespace DVP1.CE1
         {
             Console.WriteLine("Enter a sentence containing at least 6 words");
             string sentenceString = Console.ReadLine();
-
+            if (string.IsNullOrWhiteSpace(sentenceString))
+            {
+                Console.WriteLine("You did not enter anything");
+                Console.ReadLine();
+            }
             Console.WriteLine($"Thank you, you entered the sentence \r\n {sentenceString}");
+            Console.ReadLine();
+
+            MirrorString(sentenceString);
+            Console.ReadLine();
+        }
+
+        public static string MirrorString (string sentence)
+        {
+            char[] sentenceArr = sentence.ToCharArray();
+            Array.Reverse(sentenceArr);
+            return new string(sentenceArr);
         }
     }
 }
