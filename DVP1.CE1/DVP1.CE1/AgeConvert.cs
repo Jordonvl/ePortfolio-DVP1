@@ -23,7 +23,7 @@ namespace DVP1.CE1
             int ageInt;
             while (!int.TryParse(ageString, out ageInt))
             {
-                Console.WriteLine()
+                Console.WriteLine();
             }
         }
     }

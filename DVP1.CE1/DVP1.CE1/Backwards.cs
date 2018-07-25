@@ -21,17 +21,18 @@ namespace DVP1.CE1
                 Console.ReadLine();
             }
             Console.WriteLine($"Thank you, you entered the sentence \r\n {sentenceString}");
-            Console.ReadLine();
-
-            MirrorString(sentenceString);
-            Console.ReadLine();
+            
+            Console.WriteLine(MirrorString(sentenceString));
+            Console.ReadLine(); 
         }
 
-        public static string MirrorString (string sentence)
+
+        public static string MirrorString(string sentence)
         {
             char[] sentenceArr = sentence.ToCharArray();
             Array.Reverse(sentenceArr);
             return new string(sentenceArr);
+            
         }
     }
 }
