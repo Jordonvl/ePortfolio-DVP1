@@ -21,11 +21,36 @@ namespace DVP1.CE1
                 Console.ReadLine();
             }
             Console.WriteLine($"Thank you, you entered the sentence \r\n {sentenceString}");
-            
+
+            sentenceString = WordCount(sentenceString);
+
             Console.WriteLine(MirrorString(sentenceString));
             Console.ReadLine(); 
         }
 
+        public static string WordCount(string sentence)
+        {
+            do
+            {
+                int count = 0;
+                string[] words = sentence.Split(' ');
+                foreach (var word in words)
+                {
+                    count++;
+                }
+                if (count >= 6)
+                {
+                    Console.WriteLine("Correct amount of words");
+                    break;
+                }
+                else if (count < 6)
+                {
+                    Console.WriteLine("Incorrect amount of words");
+                }
+                sentence = Console.ReadLine();
+            } while (true);
+            return sentence;
+        }
 
         public static string MirrorString(string sentence)
         {
