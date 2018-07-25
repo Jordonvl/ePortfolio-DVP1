@@ -19,7 +19,12 @@ namespace DVP1.CE1
             }
 
             Console.WriteLine("What is your age?");
+            string ageString = Console.ReadLine();
             int ageInt;
+            while (!int.TryParse(ageString, out ageInt))
+            {
+                Console.WriteLine()
+            }
         }
     }
 }
