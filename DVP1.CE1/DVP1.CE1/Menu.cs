@@ -48,7 +48,8 @@ namespace DVP1.CE1
                         break;
                     case 3:
                         {
-                            Console.WriteLine("Not ready yet");
+                            Console.Clear();
+                            AgeConvert.GetAgeConvert();
                         }
                         break;
                     case 4:

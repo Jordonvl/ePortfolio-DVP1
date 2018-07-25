@@ -18,13 +18,26 @@ namespace DVP1.CE1
                 Console.ReadLine();
             }
 
-            Console.WriteLine("What is your age?");
+            Console.WriteLine($"Thank you {nameString}, What is your age?");
             string ageString = Console.ReadLine();
             int ageInt;
             while (!int.TryParse(ageString, out ageInt))
             {
-                Console.WriteLine();
+                Console.WriteLine("You did not enter a valid number, please try again");
+                ageString = Console.ReadLine();
             }
+            
+        }
+
+        public static void TheAgeConverter(int age)
+        {
+            int days = age * 365;
+            int hours = age * 8760;
+            int minutes = age * 525600;
+            int seconds = age * 31536000;
+            
+            Console.WriteLine($"{age} years, Fantastic! Next time someone asks, try asnwering with: {days} -or- \r\n {hours} -or- \r\n ")
+
         }
     }
 }
