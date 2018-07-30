@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //Jordon van Leenen
-//1807
+//7/27/2018
 //Project & Portfolio
 //In this coding challenge I am creating a class that converts degrees in fahrenheit to celcius and celcius to fahrenheit.
 namespace DVP1.CE1

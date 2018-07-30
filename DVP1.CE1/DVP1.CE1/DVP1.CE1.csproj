@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AgeConvert.cs" />
     <Compile Include="Backwards.cs" />
+    <Compile Include="BigBlueFish.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="SwapName.cs" />
     <Compile Include="TempConvert.cs" />

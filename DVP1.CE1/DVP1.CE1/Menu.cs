@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //Jordon van Leenen
-//1807
+//7/08/2018
 //Project & Portfolio
 //In this coding challenge I am creating a welcoming menu where the user starts.
 namespace DVP1.CE1
@@ -60,18 +60,23 @@ namespace DVP1.CE1
                         break;
                     case 5:
                         {
-                            Console.WriteLine("Not ready yet");
+                            Console.Clear();
+                            BigBlueFish.GetBigBlueFish();
                         }
                         break;
                     case 0:
                         {
-                            Console.WriteLine();
+                            if (menuChoice == 0)
+                            {
+                                Environment.Exit(0);
+                            }
                         }
                         break;
 
                     default:
                         break;
                 }
+                
             }
         }
 

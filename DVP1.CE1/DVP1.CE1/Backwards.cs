@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //Jordon van Leenen
-//1807
+//7/22/2018
 //Project & Portfolio
 //In this coding challenge I am creating a class where I reverse the order of a sentence and reverse the words themselves.
 namespace DVP1.CE1
