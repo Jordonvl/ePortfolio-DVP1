@@ -25,7 +25,7 @@ namespace DVP1.CE1
             sentenceString = WordCount(sentenceString);
 
             Console.WriteLine(MirrorString(sentenceString));
-            Console.ReadLine(); 
+            Console.ReadLine();
         }
 
         public static string WordCount(string sentence)
@@ -57,7 +57,7 @@ namespace DVP1.CE1
             char[] sentenceArr = sentence.ToCharArray();
             Array.Reverse(sentenceArr);
             return new string(sentenceArr);
-            
+
         }
     }
 }

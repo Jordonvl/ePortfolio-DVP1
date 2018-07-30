@@ -54,7 +54,8 @@ namespace DVP1.CE1
                         break;
                     case 4:
                         {
-                            Console.WriteLine("Not ready yet");
+                            Console.Clear();
+                            TempConvert.GetTempConvert();
                         }
                         break;
                     case 5:
